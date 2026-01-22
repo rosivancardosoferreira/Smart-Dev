@@ -24,13 +24,10 @@ Smart Dev é um gerenciador de projetos para desenvolvedores que trabalham com m
 
 Faça o download do arquivo correspondente à sua arquitetura:
 
-- **Apple Silicon (M1/M2/M3)**: `Smart-Dev-darwin-arm64.zip`
-- **Intel**: `Smart-Dev-darwin-x64.zip`
-
 ### 2. Extração
 
-1. Descompacte o arquivo `.zip` baixado
-2. Arraste o arquivo `Smart Dev.app` para a pasta **Applications** (`/Applications`)
+1.  Descompacte o arquivo `.zip` baixado
+2.  Arraste o arquivo `Smart Dev.app` para a pasta **Applications** (`/Applications`)
 
 ### 3. Remover Quarentena do macOS ⚠️
 
@@ -61,49 +58,49 @@ Agora você pode abrir o Smart Dev normalmente:
 
 Antes de adicionar projetos, configure os comandos das suas IDEs:
 
-1. Clique no ícone **⚙️ Configurações** no rodapé da barra lateral
-2. Na seção **"Comandos das IDEs"**, configure as IDEs que você usa
-3. As configurações são salvas automaticamente
+1.  Clique no ícone **⚙️ Configurações** no rodapé da barra lateral
+2.  Na seção **"Comandos das IDEs"**, configure as IDEs que você usa
+3.  As configurações são salvas automaticamente
 
 ### 2. Personalizar Stacks e Tipos
 
 Configure as tecnologias e categorias que você trabalha:
 
-1. Em **Configurações**, clique em **"Campos do Projeto"**
-2. Em **Stacks**, adicione tecnologias como:
-   - Node.js
-   - Vue
-   - Angular
-   - Kotlin
-   - Java
-   - Outros...
+1.  Em **Configurações**, clique em **"Campos do Projeto"**
+2.  Em **Stacks**, adicione tecnologias como:
+    - Node.js
+    - Vue
+    - Angular
+    - Kotlin
+    - Java
+    - Outros...
 
-3. Em **Tipos de Projeto**, adicione categorias como:
-   - Frontend
-   - Backend
-   - Mobile
-   - Fullstack
-   - Microfrontend
-   - Outros...
+3.  Em **Tipos de Projeto**, adicione categorias como:
+    - Frontend
+    - Backend
+    - Mobile
+    - Fullstack
+    - Microfrontend
+    - Outros...
 
 ### 3. Criar Workspaces
 
 Organize seus projetos em grupos:
 
-1. Na barra lateral, clique no botão **+** ao lado de "Workspaces"
-2. Dê um nome (ex: "E-commerce", "Ferramentas Internas", "Clientes")
-3. Workspaces ajudam a separar projetos relacionados
+1.  Na barra lateral, clique no botão **+** ao lado de "Workspaces"
+2.  Dê um nome (ex: "E-commerce", "Ferramentas Internas", "Clientes")
+3.  Workspaces ajudam a separar projetos relacionados
 
 ### 4. Adicionar Projetos
 
-1. Clique no botão **+ Novo Projeto** no topo
-2. Preencha as informações:
-   - **Nome do Projeto**: Nome de identificação
-   - **Stack**: Tecnologia principal
-   - **Tipo**: Categoria do projeto
-   - **IDE Preferida**: IDE que será usada ao clicar em "Abrir"
-   - **Repositório Remoto** (opcional): URL do GitHub/GitLab/Bitbucket
-   - **Path do Projeto**: Caminho da pasta (use 📁 para buscar)
+1.  Clique no botão **+ Novo Projeto** no topo
+2.  Preencha as informações:
+    - **Nome do Projeto**: Nome de identificação
+    - **Stack**: Tecnologia principal
+    - **Tipo**: Categoria do projeto
+    - **IDE Preferida**: IDE que será usada ao clicar em "Abrir"
+    - **Repositório Remoto** (opcional): URL do GitHub/GitLab/Bitbucket
+    - **Path do Projeto**: Caminho da pasta (use 📁 para buscar)
 
 ---
 
@@ -127,20 +124,20 @@ Use a barra de busca no topo da barra lateral para filtrar projetos por nome
 
 ### Favoritar Projetos
 
-1. Clique no menu **⋮** no card do projeto
-2. Selecione **"Adicionar aos favoritos"**
-3. Acesse rapidamente pela seção **"Favoritos"** na sidebar
+1.  Clique no menu **⋮** no card do projeto
+2.  Selecione **"Adicionar aos favoritos"**
+3.  Acesse rapidamente pela seção **"Favoritos"** na sidebar
 
 ### Editar Projeto
 
-1. Clique no menu **⋮** no card do projeto
-2. Selecione **"Editar"**
+1.  Clique no menu **⋮** no card do projeto
+2.  Selecione **"Editar"**
 
 ### Mover para Outro Workspace
 
-1. Clique no menu **⋮** no card do projeto
-2. Selecione **"Mover para workspace"**
-3. Escolha o workspace de destino
+1.  Clique no menu **⋮** no card do projeto
+2.  Selecione **"Mover para workspace"**
+3.  Escolha o workspace de destino
 
 ### Menu de Contexto
 
@@ -198,9 +195,9 @@ sudo xattr -rd com.apple.quarantine /Applications/"Smart Dev.app"
 
 Verifique se:
 
-1. A IDE está instalada no `/Applications`
-2. O comando nas configurações está correto
-3. O nome da IDE no comando corresponde ao nome real no `/Applications`
+1.  A IDE está instalada no `/Applications`
+2.  O comando nas configurações está correto
+3.  O nome da IDE no comando corresponde ao nome real no `/Applications`
 
 ### "O terminal não abre"
 
